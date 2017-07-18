@@ -10,7 +10,7 @@ body {
 }
 
 #Heading {
-    
+
   margin: -.1px;
   border: 1px solid;
   padding:20px;
@@ -38,4 +38,16 @@ body {
   text-align: center;
   border: 1px solid;
   padding: 50px;
+}
+
+.Slideshow-container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+.myslides {
+  display: none;
+}
+.text {
+  color: white;
 }
