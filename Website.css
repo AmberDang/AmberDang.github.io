@@ -8,9 +8,7 @@ body {
   background-attachment: fixed;
 
 }
-div {
-  float: left;
-}
+
 #texts {
   text-align: center;
   font-size: 20px;
@@ -43,12 +41,18 @@ div {
   background-position: center;
   background-size: cover;
   background-attachment: fixed, scroll;
-  width: 1195px;
-  height: 490px;
   text-align: center;
   border: 1px solid;
   padding: 50px;
+
 }
+
+
+.main-container {
+  display: flex;
+  flex-flow: column;
+}
+
 .spacing {
 padding: 60px;
 padding-top: 200px;
@@ -59,9 +63,9 @@ padding-bottom: 1000px;
   box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.37);
   background-image: url("images/ye.gif");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed, scroll;
-  width: 1170px;
   height: 400px;
   text-align: center;
   border: 1px solid;
