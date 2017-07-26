@@ -21,29 +21,36 @@ body {
 
   margin: -.1px;
   border: 1px solid;
-  padding:20px;
+  padding: 20px;
   font-size: 25px;
   padding-left: 50px;
 }
+
+#title {
+  text-align: center;
+  font-style: italic;
+  font-family: Apple Chancery, cursive;
+  font-size: 50px;
+  padding-top: 290px;
+  color: white;
+}
+
 
 #text {
   text-align: center;
   font-style: italic;
   font-family: Apple Chancery, cursive;
   font-size: 50px;
-  padding-top: 15%;
+  padding-top: 40px;
   color: white;
 }
 
 #wrapper {
-  background-image:url("images/Night.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed, scroll;
+
   text-align: center;
   border: 1px solid;
   padding: 70px;
+  padding-bottom: 200px;
 
 }
 
@@ -61,11 +68,14 @@ h3 {
   flex-flow: column;
 }
 
-.spacing {
-
-  padding: 60px;
+.pad {
   padding-top: 200px;
-  padding-bottom: 1000px;
+}
+
+
+.spacing {
+  padding: 60px;
+  padding-bottom: 100px;
 }
 
 .wrapper {
