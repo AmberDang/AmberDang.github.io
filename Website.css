@@ -9,12 +9,6 @@ body {
 
 }
 
-
-.img {
-
-}
-
-
 #texts {
   text-align: center;
   font-size: 20px;
@@ -23,30 +17,32 @@ body {
   color: white;
 }
 
-#Heading {
-
-  margin: -.1px;
-  border: 1px solid;
-  padding: 20px;
-  font-size: 25px;
-  padding-left: 50px;
+ #name  {
+  font-family: 'Playball', cursive;
+  font-size: 30px;
+  padding-left: 45px;
+  color: lightpink;
 }
 
 #title {
   text-align: center;
   font-style: italic;
-  font-family: Apple Chancery, cursive;
+  font-family: 'Playball', cursive;
+  font-weight: lighter;
   font-size: 50px;
   padding-top: 290px;
-  color: white;
+  color: lightpink;
 }
 
-
+img {
+  border-radius: 9px;
+}
 
 #text {
   text-align: center;
   font-style: italic;
-  font-family: Apple Chancery, cursive;
+  font-family: 'Lobster', cursive;
+  text-shadow: 4px 4px #000000;
   font-size: 50px;
   padding-top: 40px;
   color: white;
@@ -55,16 +51,15 @@ body {
 #text2 {
   text-align: center;
   font-style: italic;
-  font-family: Apple Chancery, cursive;
-  font-size: 50px;
-
-  color: white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 45px;
+  font-weight: lighter;
+  color: lightblue;
 }
 
 
 
 #wrapper {
-
   text-align: center;
   border: 1px solid;
   padding: 70px;
@@ -98,14 +93,48 @@ h3 {
 }
 
 .wrapper {
-  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.37);
+  padding-top: 300px;
+  text-align: center;
+  border: 1px;
+
+}
+.back {
   background-image: url("images/ye.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed, scroll;
-  padding-top: 300px;
-  text-align: center;
-  border: 1px;
+}
+.back2 {
+  background-image: url("images/typing.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed, scroll;
 
+}
+li {
+
+    float: right;
+    display: flex;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav {
+    padding-left: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.62);
+}
+#hover a:hover:not(.active) {
+    background-color: lightpink;
+    color: black;
 }
