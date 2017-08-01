@@ -1,6 +1,6 @@
-$(document).ready(function) {
-  $("#button").click(function() {
-      $('html, body').animate({
-          scrollTop: $("#scroll").offset().top
-      }, 2000);
-  });
+$(function() {
+   $('.scroll-down').click (function() {
+     $('html, body').animate({scrollTop: $('.ok').offset().top }, 'slow');
+     return false;
+   });
+ });
