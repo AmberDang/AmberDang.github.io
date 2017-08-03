@@ -10,59 +10,163 @@
   </head>
   <body>
 
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Amber</a>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div>
-        </nav>
+            <nav class="navbar navbar-default navbar-fixed-top">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Amber</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div><!--/.nav-collapse -->
+              </div>
+            </nav>
 
-<div class="pad" id="home">
-        <section id="showcase">
-          <div class="container">
-            <div class="row">
-              <div class="showcase-bottom">
-                  <p class="text" data-sr="enter left please, and hustle 20px">
-                    Welcome to <br>Amber Nguyen's <br> Profile
-                  </p>
+    <div class="pad" id="home">
+            <section id="front">
+              <div class="container">
+                <div class="showcase-bottom">
+                      <p class="text" style="color: lightblue">
+                        Welcome to <br>Amber Nguyen's <br> Profile
+                      </p>
+                </div>
+              </div>
+            </section>
+    </div>
+
+    <div class="pad" id="about">
+            <section id="about2">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                      <div class="showcase-left">
+                        <h1>About Me</h1>
+                        <p>Hi my name is Amber Nguyen-Dang and im a future
+                          entepenuer who is currently finishing up my last year of high
+                          school. I am inspired to learn computer and game programming, because hey why not do
+                          the things that makes me feel joy.</p>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="showcase-right">
+                      <img src="images/me.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+          </div>
+
+          <section id="project">
+
+            <div class="container">
+              <div class="row">
+                <div class="title">
+                  <div class="showcase-bottom">
+                    <h1>My Projects</h1>
+                  </div>
+                </div>
+                <div class="top">
+                </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="showcase-right">
+                      <img src="images/ye.gif">
+                    </div>
+                  </div>
+                  <div class="showcase-left">
+                    <h2>Video Editing</h2>
+                    <p>I am certified in Adobe Production and had been editing
+                      videos using the softwar. But soon after i moved onto vegas
+                      production which i found a lot more flexible to put effects in. I currently
+                      edit videos for a few of my friends but mainly try and focus on trying different
+                      effects on my channel through varius videos.</p>
+                      <div id="btn">
+                        <img class="btn btn-default btn-lg showcase-btn" src="images/youtube.png"  onclick="openInNewTab('https://www.youtube.com/user/kisseyboo101')";>
+                      </div>
+                    </div>
+                  <div>
+                </div>
+              </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="top">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="showcase-left">
+                    <h2>Computer Coding</h1>
+                    <p> I was chosen to be able to attened a summer camp for coding
+                    that was held at Broward College-Downtown Center. During this camp
+                    i was able to learn the basics of HTML, CSS, JS, and Ruby. With this
+                    came a project of creating my own website (the one your on now!). Some
+                    of the work i was able to do is uploaded on my github.</p>
+                    <div id="btn2">
+                      <img class="btn btn-default btn-lg showcase-btn" src="images/git.png"  onclick="openInNewTab('https://github.com/AmberDang')";>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="showcase-right">
+                    <img src="images/typing.gif">
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
 
-        </section>
-</div>
+          </section>
 
-        <section id="about">
-          <div class="container">
-            <h1>About Me</h1>
-            <p>Hi my name is Amber Nguyen-Dang and im a future
-            entepenuer who is currently finishing up my last year of high
-            school. I am inspired to learn computer and game programming, because hey why not do
-            the things that inspire me the most.</p>
-          </div>
+        <div class="pad">
+          <section id="contact">
+            <div class="container">
+              <div class="row">
+                  <form action="mailto:nguyen.amber99@gmail.com" method="post">
+                    <div class="form-group">
+                      <h1>Contact Me</h1>
+                      <p style="color:white;">If you have any questions please do contact me</p>
+                      <label>Name: </label>
+                      <input class="form-control" type="text" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                      <label>Email: </label>
+                      <input class="form-control" type="text" placeholder="Enter Email">
+                    </div>
+                    <div class="form-group">
+                      <label>Message: </label>
+                      <input class="form-control" type="text" placeholder="Enter Message">
+                    </div>
+                    <button class="btn btn-default">Submit</button>
+                  </form>
 
-        </section>
+              </div>
+            </div>
+          </section>
+        </div>
+        <footer>
+          <p class="text-center">Amber Copyright &copy; 2017</p>
+        </footer>
+
+
+
+
+
+
 
 
 
     <script
   src="http://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>>
+  crossorigin="anonymous"></script>
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="index.js" type="text/javascript">
