@@ -122,14 +122,14 @@ p {
 
 #contact form {
   margin: 0 auto;
-  width:600px;
+  width:340px;
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
 #contact label {
   color: lightpink;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 footer {
