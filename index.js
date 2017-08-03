@@ -20,13 +20,18 @@ window.sr = ScrollReveal();
   });
 
 
+  sr.reveal('.showcase-enter', {
+    mobile: true,
+    duration: 3500,
+    easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+  });
 
 
   function openInNewTab(url) {
     var win = window.open(url, '_blank');
     win.focus();
   }
-  
+
   var $root = $('html, body');
   $('a').click(function() {
       $root.animate({
