@@ -36,7 +36,9 @@ p {
   padding-bottom: 100px;
   padding-top: 100px;
 }
-
+#navbar a {
+  color: white !important;
+}
 #navbar a:hover {
   color: lightblue !important;
 }
@@ -73,7 +75,7 @@ p {
   color: white;
 }
 
-#about2 {
+#about {
   background:rgba(0, 0, 0, 0.89);
   padding: 50px 0 30px 0;
   text-align: center;
@@ -82,13 +84,13 @@ p {
 
 }
 
-#about2 img {
+#about img {
   width: 40%;
   margin-left: 60px;
   border-radius: 20px;
 }
 
-#about2 .showcase-left {
+#about .showcase-left {
   margin-top: 90px;
 }
 
